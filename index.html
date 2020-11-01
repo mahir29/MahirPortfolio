@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width-device-width,initial-scale=1.0">
+        <title>MahirGoel Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet"> 
+        
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <video playsinline autoplay muted loop class="bgvid">
+            <source src="video/video.mp4" type="video/mp4">
+        </video>
+        <header class="header">
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>    
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My work</a></li>
+                </ul>
+            </nav>    
+        </header>
+
+        <!--Introduction-->
+        <section id="home" class="intro">
+            <h1 class="section__title section__title--intro">
+                 Hi,I am <strong>Mahir Goel</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Full Stack Dev</p>
+            <img src="img/mahir-goel.jpg" alt="a picture of Mahir Goel smiling" class="intro__img"> 
+            
+        </section>
+
+        <!--Services-->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Front-End Developer</h3>
+                    <p>Develops websites and applications using web technologies (i.e., HTML, CSS, DOM, and JavaScript), which act as compilation input for non-web platform environment </p>
+                </div>
+
+                <div class="service">
+                    <h3>Back End Developer</h3>
+                    <p>Responsible for server-side web application logic and integration of the work front-end ,write the web services and APIs used by front-end.</p>
+                </div>
+            
+            <div class="service">
+                <h3>Data Science Enthusiast</h3>
+                <p>Have profound knowledge of some famous machine learning algorithms including neural networks, SVMs,using PCAs and applying these algorithms to develop real world models to solve real life situation using this vast field of deep learning</p>
+            </div>
+            
+            </div>
+            <a class="btn" href="#portfolio">My Work</a>
+        </section>
+        
+
+        <!--About me-->
+        <div class="blast">
+       <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">Software Developer</p>
+
+           <div class="about-me__body">
+               <p>Talking about myself, I am currently a BTech student at IIT Roorkee pursuing engineering in the field of mechanical.
+                   But for a long time I have been working in the field of development and I have learned lot of technologies in this 
+                   field.Besides, I also gain interest for deep learning and cloud development
+               </p>
+           </div>
+
+           <img src="img/mahir-goel-02.jpg" alt="Mahir smiling" class=about-me__img>
+       </section>
+    </div>
+
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+            
+            <div class="portfolio">
+
+                <!-- Portfolio item 01 -->
+                <a href="https://dolla-web.herokuapp.com/" class="portfolio__item">
+                    <img src="img/img4.svg" alt="" class="portfolio__img">
+                </a>
+
+                <!-- Portfolio item 02 -->
+                <a href="https://mahir29.github.io/restaurant/" class="portfolio__item">
+                    <img src="img/img3.svg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a href="https://mahir29.github.io/NewsApp/" class="portfolio__item">
+                    <img src="img/img2.svg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 04 -->
+                <a href="https://mahir29.github.io/youtube/" class="portfolio__item">
+                    <img src="img/img1.svg" alt="" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <a href="mailto:mahir_g@me.iitr.ac.in" class="footer__link">mahir_g@me.iitr.ac.in</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link">
+                         <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link">
+                         <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link">
+                         <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+    </body>
+</html>
